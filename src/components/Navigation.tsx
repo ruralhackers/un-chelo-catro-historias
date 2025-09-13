@@ -53,7 +53,7 @@ const Navigation: React.FC<NavigationProps> = ({ onScrollToSection }) => {
             onClick={() => handleNavClick('home')}
           >
             <span className="hidden sm:inline">Un chelo, catro historias</span>
-            <span className="sm:hidden">UC4H</span>
+            <span className="sm:hidden">Un chelo, catro historias</span>
           </div>
 
 
@@ -65,8 +65,8 @@ const Navigation: React.FC<NavigationProps> = ({ onScrollToSection }) => {
                 onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
                 className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-roca bg-white border border-caliz-plata rounded-lg hover:bg-caliz-plata/10 focus:outline-none focus:ring-2 focus:ring-mine-shaft focus:border-transparent transition-all duration-200"
               >
-                <span className="text-lg">{currentLanguage?.flag}</span>
-                <span>{currentLanguage?.label}</span>
+                <span className="hidden sm:inline">{currentLanguage?.label}</span>
+                <span className="sm:hidden font-bold">{currentLanguage?.code.toUpperCase()}</span>
                 <svg
                   className={`w-4 h-4 transition-transform duration-200 ${
                     isLanguageDropdownOpen ? 'rotate-180' : ''
@@ -91,8 +91,8 @@ const Navigation: React.FC<NavigationProps> = ({ onScrollToSection }) => {
                           language === lang.code ? 'bg-caliz-plata/20 text-mine-shaft' : 'text-roca'
                         }`}
                       >
-                        <span className="text-lg">{lang.flag}</span>
-                        <span className="font-medium">{lang.label}</span>
+                        <span className="hidden sm:inline font-medium">{lang.label}</span>
+                        <span className="sm:hidden font-bold">{lang.code.toUpperCase()}</span>
                         {language === lang.code && (
                           <svg className="w-4 h-4 ml-auto text-mine-shaft" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
