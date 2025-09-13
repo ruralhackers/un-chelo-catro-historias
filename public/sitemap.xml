@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Página principal -->
+  <url>
+    <loc>https://unchelocatrohistorias.com/</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="gl" href="https://unchelocatrohistorias.com/gl"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://unchelocatrohistorias.com/es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://unchelocatrohistorias.com/en"/>
+  </url>
+
+  <!-- Versiones multiidioma -->
+  <url>
+    <loc>https://unchelocatrohistorias.com/gl</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="gl" href="https://unchelocatrohistorias.com/gl"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://unchelocatrohistorias.com/es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://unchelocatrohistorias.com/en"/>
+  </url>
+
+  <url>
+    <loc>https://unchelocatrohistorias.com/es</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="gl" href="https://unchelocatrohistorias.com/gl"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://unchelocatrohistorias.com/es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://unchelocatrohistorias.com/en"/>
+  </url>
+
+  <url>
+    <loc>https://unchelocatrohistorias.com/en</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="gl" href="https://unchelocatrohistorias.com/gl"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://unchelocatrohistorias.com/es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://unchelocatrohistorias.com/en"/>
+  </url>
+
+  <!-- Historias principales -->
+  <url>
+    <loc>https://unchelocatrohistorias.com/historias/javier-merelas</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://unchelocatrohistorias.com/historias/pedro-elba-eco-teixos</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://unchelocatrohistorias.com/historias/ivan-matos</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://unchelocatrohistorias.com/historias/xaneco</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Historias adicionales -->
+  <url>
+    <loc>https://unchelocatrohistorias.com/historias/cesar-arias</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://unchelocatrohistorias.com/historias/roi-earan</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://unchelocatrohistorias.com/historias/inazio</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Secciones principales -->
+  <url>
+    <loc>https://unchelocatrohistorias.com/documental</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://unchelocatrohistorias.com/colaboraciones</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://unchelocatrohistorias.com/contacto</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
