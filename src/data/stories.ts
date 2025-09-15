@@ -32,9 +32,9 @@ export const mainStories: Story[] = [
     id: 'xaneco',
     name: 'Xaneco',
     wood: 'ciruelo/ciruelo',
-    province: 'A Coruña',
+    province: 'Pontevedra',
     preview: 'Un visionario que ve na madeira de ciruelo as posibilidades infinitas da creación.',
-    fullStory: 'Xaneco é un artista visionario que traballa coa madeira de ciruelo na provincia da Coruña. Para el, cada tronco é un universo de posibilidades esperando ser descuberto. A súa aproximación á madeira é case mística, escolta o que cada peza ten que dicirllle e responde con ferramentas e intuición. O ciruelo que achega ao chelo porta a doçura e a delicadeza dos froitos da terra galega.',
+    fullStory: 'Xaneco é un artista visionario que traballa coa madeira de ciruelo na provincia de Pontevedra. Comezou a súa traxectoria na EMAO de Vigo, onde desenvolveu a súa paixón pola madeira e a creación. Para el, cada tronco é un universo de posibilidades esperando ser descuberto. A súa aproximación á madeira é case mística, escolta o que cada peza ten que dicirllle e responde con ferramentas e intuición. O ciruelo que achega ao chelo porta a doçura e a delicadeza dos froitos da terra galega.',
     image: 'https://images.pexels.com/photos/5691613/pexels-photo-5691613.jpeg'
   }
 ];
@@ -70,10 +70,25 @@ export const additionalStories: Story[] = [
 ];
 
 export const collaborations: Collaboration[] = [
+  { 
+    name: 'Esteban Zapata Blanco', 
+    role: 'Compositor',
+    description: 'É un compositor galego nacido en Arteixo en 1992, cunha linguaxe compositiva influenciada polo folclore e a música culta. Iniciou os seus estudos no Conservatorio da Coruña en 2012, graduándose con honores en 2016. Posteriormente, tivo a oportunidade de continuar os seus estudos na HKU Utrecht Conservatorium, onde realiza o Mestrado "Music as a path of life" centrado en composición contemporánea.',
+    website: 'https://www.instagram.com/este_s/?hl=es'
+  },
+  { 
+    name: 'Saúl Nogareda Candal', 
+    role: 'Violonchelo',
+    description: 'Comeza os seus estudos musicais no Conservatorio Profesional de Música de Culleredo, finaliza o Grao Profesional no Conservatorio Profesional de Música da Coruña e continúa no Conservatorio Superior de Música da Coruña con Carolina Landriscini. Complementa a súa formación na Escola de Altos Estudos Musicais de Santiago de Compostela, na Orquestra Xove da Sinfónica de Galicia e na Universidade das Artes de Utrecht.',
+    website: 'https://www.instagram.com/saulnogareda/?hl=es'
+  },
+  { 
+    name: 'BELE', 
+    role: 'Escola de música',
+    description: 'A Bilboko Euskal Luthería Eskola leva dende o ano 1986 formando a luthiers de corda frotada de todo o mundo. Dende o comezo amosáronse interesados polo proxecto e apoiaronno con todo o material e tempo necesario para dar uns fundamentos acústicos sobre os que vertebrar o proxecto.',
+    website: 'https://www.bele.es/es/'
+  },
   { name: 'Ensaia', role: 'Talento Galego' },
-  { name: 'Saúl Nogareda Candal', role: 'Violonchelo' },
-  { name: 'Esteban Zapata Blanco', role: 'Compositor' },
-  { name: 'BELE', role: 'Escuela de música' },
   { name: 'Nerea Pallares', role: 'Poeta' },
   { name: 'Laura Calvo', role: 'Artista' },
   { name: 'Yago Fandiño', role: 'Comunicación' }

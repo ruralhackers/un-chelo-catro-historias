@@ -12,6 +12,7 @@ export const translations: Record<Language, TranslationContent> = {
       collaborations: 'Colaboracións'
     },
     mainStoriesTitle: 'As catro historias',
+    mainStoriesIntro: 'As historias destas persoas, e a busca da materia prima levaronnos a coñecer outras historias. Na búsqueda de madeira conseguimos xerar unha rede humana que constrúe o corpo deste proxecto.',
     additionalStoriesTitle: 'As historias que viñeron',
     documentaryTitle: 'Documental',
     collaborationsTitle: 'Colaboracións',
@@ -29,6 +30,7 @@ export const translations: Record<Language, TranslationContent> = {
       collaborations: 'Colaboraciones'
     },
     mainStoriesTitle: 'Las cuatro historias',
+    mainStoriesIntro: 'Las historias de estas personas, y la búsqueda de la materia prima nos llevaron a conocer otras historias. En la búsqueda de madera conseguimos generar una red humana que construye el cuerpo de este proyecto.',
     additionalStoriesTitle: 'Las historias que vinieron',
     documentaryTitle: 'Documental',
     collaborationsTitle: 'Colaboraciones',
@@ -46,6 +48,7 @@ export const translations: Record<Language, TranslationContent> = {
       collaborations: 'Collaborations'
     },
     mainStoriesTitle: 'The four stories',
+    mainStoriesIntro: 'The stories of these people, and the search for raw materials led us to know other stories. In the search for wood we managed to generate a human network that builds the body of this project.',
     additionalStoriesTitle: 'The stories that came',
     documentaryTitle: 'Documentary',
     collaborationsTitle: 'Collaborations',

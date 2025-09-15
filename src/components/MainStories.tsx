@@ -15,6 +15,9 @@ const MainStories: React.FC = () => {
           <h2 className="text-4xl md:text-5xl font-serif text-negro mb-6">
             {t.mainStoriesTitle}
           </h2>
+          <p className="text-lg font-sans text-roca max-w-3xl mx-auto leading-relaxed mb-8">
+            {t.mainStoriesIntro}
+          </p>
           <p className="text-lg font-sans text-roca max-w-3xl mx-auto leading-relaxed">
             Catro provincias, catro madeiras, catro historias que se unen nun só instrumento. 
             Cada artesán achega a súa experiencia e a esencia da súa terra.

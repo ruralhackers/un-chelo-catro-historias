@@ -41,7 +41,22 @@ const Collaborations: React.FC = () => {
                         {collaboration.role}
                       </p>
                     )}
-                    <div className="w-12 h-1 bg-mine-shaft rounded-full mx-auto group-hover:w-16 transition-all duration-300"></div>
+                    {collaboration.description && (
+                      <p className="text-sm text-mine-shaft mb-4 leading-relaxed">
+                        {collaboration.description}
+                      </p>
+                    )}
+                    {collaboration.website && (
+                      <a 
+                        href={collaboration.website} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-amber-600 hover:text-amber-700 text-sm font-medium"
+                      >
+                        Ver máis
+                      </a>
+                    )}
+                    <div className="w-12 h-1 bg-mine-shaft rounded-full mx-auto group-hover:w-16 transition-all duration-300 mt-4"></div>
                   </div>
                 </div>
               </div>
@@ -68,7 +83,22 @@ const Collaborations: React.FC = () => {
                         {collaboration.role}
                       </p>
                     )}
-                    <div className="w-12 h-1 bg-mine-shaft rounded-full mx-auto group-hover:w-16 transition-all duration-300"></div>
+                    {collaboration.description && (
+                      <p className="text-sm text-mine-shaft mb-4 leading-relaxed">
+                        {collaboration.description}
+                      </p>
+                    )}
+                    {collaboration.website && (
+                      <a 
+                        href={collaboration.website} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-amber-600 hover:text-amber-700 text-sm font-medium"
+                      >
+                        Ver máis
+                      </a>
+                    )}
+                    <div className="w-12 h-1 bg-mine-shaft rounded-full mx-auto group-hover:w-16 transition-all duration-300 mt-4"></div>
                   </div>
                 </div>
               </div>
@@ -95,7 +125,22 @@ const Collaborations: React.FC = () => {
                         {collaboration.role}
                       </p>
                     )}
-                    <div className="w-12 h-1 bg-mine-shaft rounded-full mx-auto group-hover:w-16 transition-all duration-300"></div>
+                    {collaboration.description && (
+                      <p className="text-sm text-mine-shaft mb-4 leading-relaxed">
+                        {collaboration.description}
+                      </p>
+                    )}
+                    {collaboration.website && (
+                      <a 
+                        href={collaboration.website} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-amber-600 hover:text-amber-700 text-sm font-medium"
+                      >
+                        Ver máis
+                      </a>
+                    )}
+                    <div className="w-12 h-1 bg-mine-shaft rounded-full mx-auto group-hover:w-16 transition-all duration-300 mt-4"></div>
                   </div>
                 </div>
               </div>

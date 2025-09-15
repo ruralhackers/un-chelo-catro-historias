@@ -1,5 +1,5 @@
 import React from 'react';
-import { Play, Film } from 'lucide-react';
+import { Play } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 const Documentary: React.FC = () => {
@@ -31,6 +31,43 @@ const Documentary: React.FC = () => {
                   Documental principal - Próximamente
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Documentary Team Credits */}
+        <div className="bg-caliz-plata/10 rounded-2xl p-8">
+          <h3 className="text-2xl font-serif text-negro mb-6 text-center">
+            Equipo do documental
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="text-center">
+              <h4 className="font-serif font-bold text-negro mb-2">Arián Quinteiro</h4>
+              <p className="text-sm text-roca mb-2">Dirección</p>
+              <a href="https://arianquinteiro.com/" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:text-amber-700 text-sm">
+                arianquinteiro.com
+              </a>
+            </div>
+            <div className="text-center">
+              <h4 className="font-serif font-bold text-negro mb-2">Borja Freire</h4>
+              <p className="text-sm text-roca mb-2">Posproducción de son</p>
+              <a href="https://www.borjafreiresonido.com/" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:text-amber-700 text-sm">
+                borjafreiresonido.com
+              </a>
+            </div>
+            <div className="text-center">
+              <h4 className="font-serif font-bold text-negro mb-2">Martín F. Gamarra</h4>
+              <p className="text-sm text-roca mb-2">Montaxe</p>
+              <a href="https://martinfgamarra.com/" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:text-amber-700 text-sm">
+                martinfgamarra.com
+              </a>
+            </div>
+            <div className="text-center">
+              <h4 className="font-serif font-bold text-negro mb-2">Thomas Schwarz</h4>
+              <p className="text-sm text-roca mb-2">Segunda cámara</p>
+              <a href="https://www.instagram.com/thomasinho.schwarz/" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:text-amber-700 text-sm">
+                @thomasinho.schwarz
+              </a>
             </div>
           </div>
         </div>

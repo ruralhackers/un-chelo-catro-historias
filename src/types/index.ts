@@ -11,6 +11,8 @@ export interface Story {
 export interface Collaboration {
   name: string;
   role?: string;
+  description?: string;
+  website?: string;
 }
 
 export type Language = 'gl' | 'es' | 'en';
@@ -26,6 +28,7 @@ export interface TranslationContent {
     collaborations: string;
   };
   mainStoriesTitle: string;
+  mainStoriesIntro: string;
   additionalStoriesTitle: string;
   documentaryTitle: string;
   collaborationsTitle: string;
