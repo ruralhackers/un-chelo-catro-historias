@@ -16,8 +16,6 @@ export default {
         'sans': ['Archivo', 'Inter', 'sans-serif'],
         'archivo': ['Archivo', 'sans-serif'],
         'archivo-thin': ['Archivo', 'sans-serif'],
-        'modernist': ['SK Modernist', 'sans-serif'],
-        'modernist-mono': ['SK Modernist Mono', 'monospace'],
       },
       fontWeight: {
         'thin': '100',
