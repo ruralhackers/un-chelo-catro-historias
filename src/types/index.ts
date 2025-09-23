@@ -13,6 +13,7 @@ export interface Collaboration {
   role?: string;
   description?: string;
   website?: string;
+  image?: string;
 }
 
 export type Language = 'gl' | 'es' | 'en';

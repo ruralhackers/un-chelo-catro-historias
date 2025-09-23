@@ -1,5 +1,4 @@
 import React from 'react';
-import { Play } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 const Documentary: React.FC = () => {
@@ -21,16 +20,16 @@ const Documentary: React.FC = () => {
 
         {/* Main Video Section */}
         <div className="mb-16">
-            <div className="relative bg-white rounded-2xl overflow-hidden shadow-2xl border border-caliz-plata">
-            <div className="aspect-w-16 aspect-h-9 bg-gradient-to-r from-amber-100 to-amber-200 h-96 flex items-center justify-center">
-              <div className="text-center">
-                <div className="bg-amber-600/20 backdrop-blur-sm rounded-full p-6 mb-4 mx-auto w-fit">
-                  <Play size={48} className="text-amber-600" />
-                </div>
-                <p className="text-lg font-sans text-mine-shaft">
-                  Documental principal - Próximamente
-                </p>
-              </div>
+          <div className="relative bg-white rounded-2xl overflow-hidden shadow-2xl border border-caliz-plata">
+            <div className="aspect-w-16 aspect-h-9 h-[600px]">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/yHwthqyMGI8"
+                title="Documental Chelo Catro"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
         </div>

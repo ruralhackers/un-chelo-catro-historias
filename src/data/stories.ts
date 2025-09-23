@@ -79,8 +79,9 @@ export const collaborations: Collaboration[] = [
   { 
     name: 'Saúl Nogareda Candal', 
     role: 'Violonchelo',
-    description: 'Comeza os seus estudos musicais no Conservatorio Profesional de Música de Culleredo, finaliza o Grao Profesional no Conservatorio Profesional de Música da Coruña e continúa no Conservatorio Superior de Música da Coruña con Carolina Landriscini. Complementa a súa formación na Escola de Altos Estudos Musicais de Santiago de Compostela, na Orquestra Xove da Sinfónica de Galicia e na Universidade das Artes de Utrecht.',
-    website: 'https://www.instagram.com/saulnogareda/?hl=es'
+    description: 'Comeza no CMUS de Culleredo e continúa nos CMUS e CSM da Coruña. Complementa a súa formación na EAEM de Santiago de Compostela, na OJSG e na HKU de Utrecht. Realizou concertos con Soncello Ensemble, Lugo Camerata, Orquesta de Cámara Galega, Orquesta Gaos e Orquesta Sinfónica de Ponferrada. Formouse en música antiga na ESMAE de Porto, e forma parte do Ensemble Barroco de Ponferrada e de Concert Le Phénix. Tamén é membro do grupo de folk Sangre de muérdago.',
+    website: 'https://www.instagram.com/saulnogareda/?hl=es',
+    image: '/images/saul.png'
   },
   { 
     name: 'BELE', 
@@ -90,6 +91,11 @@ export const collaborations: Collaboration[] = [
   },
   { name: 'Ensaia', role: 'Talento Galego' },
   { name: 'Nerea Pallares', role: 'Poeta' },
-  { name: 'Laura Calvo', role: 'Artista' },
+  { 
+    name: 'Laura Calvo', 
+    role: 'Artista',
+    description: 'Artista autodidacta, Laura pintábao todo cando era pequena. No 2024 dá un paso adiante e consolida Boor, unha proposta que combina a súa formación como educadora social con arte, cunha identidade propia e recoñecible. Afincada en Oza-Cesuras, Boor destaca por darlle unha segunda vida ás boias recuperadas do mar transformándoas en pezas únicas de deseño, e por crear debuxos fotorrealistas a gran escala cunha técnica singular de garabatos feitos con rotuladores.',
+    image: '/images/laura.jpg'
+  },
   { name: 'Yago Fandiño', role: 'Comunicación' }
 ];
