@@ -1,5 +1,6 @@
 import React from 'react';
 import { Story } from '../types';
+import { useStoryTranslations } from '../hooks/useStoryTranslations';
 
 interface StoryCardProps {
   story: Story;
@@ -8,6 +9,8 @@ interface StoryCardProps {
 }
 
 const StoryCard: React.FC<StoryCardProps> = ({ story, onClick, isDark = false }) => {
+  const { getStoryText } = useStoryTranslations();
+  
   return (
     <div 
       className="group cursor-pointer relative h-96 perspective-1000"
@@ -47,7 +50,7 @@ const StoryCard: React.FC<StoryCardProps> = ({ story, onClick, isDark = false })
             }`}>
               {story.wood} - {story.province}
             </div>
-            <p className="text-sm font-sans leading-relaxed">{story.preview}</p>
+            <p className="text-sm font-sans leading-relaxed">{getStoryText(story, 'preview')}</p>
           </div>
         </div>
       </div>

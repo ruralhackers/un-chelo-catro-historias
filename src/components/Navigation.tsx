@@ -7,7 +7,7 @@ interface NavigationProps {
 }
 
 const Navigation: React.FC<NavigationProps> = ({ onScrollToSection }) => {
-  const { language, setLanguage } = useLanguage();
+  const { language, setLanguage, t } = useLanguage();
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = React.useState(false);
 
  
@@ -26,9 +26,9 @@ const Navigation: React.FC<NavigationProps> = ({ onScrollToSection }) => {
   }, [isLanguageDropdownOpen]);
 
   const languages: { code: Language; label: string; flag: string }[] = [
-    { code: 'gl', label: 'Galego', flag: '🏴󠁥󠁳󠁧󠁡󠁿' },
-    { code: 'es', label: 'Español', flag: '🇪🇸' },
-    { code: 'en', label: 'English', flag: '🇬🇧' }
+    { code: 'gl', label: t.languageLabels.galego, flag: '🏴󠁥󠁳󠁧󠁡󠁿' },
+    { code: 'es', label: t.languageLabels.español, flag: '🇪🇸' },
+    { code: 'en', label: t.languageLabels.english, flag: '🇬🇧' }
   ];
 
 
@@ -52,8 +52,8 @@ const Navigation: React.FC<NavigationProps> = ({ onScrollToSection }) => {
             className="text-xl font-bold text-negro cursor-pointer hover:text-mine-shaft transition-colors"
             onClick={() => handleNavClick('home')}
           >
-            <span className="hidden sm:inline">Un chelo, catro historias</span>
-            <span className="sm:hidden">Un chelo, catro historias</span>
+            <span className="hidden sm:inline">{t.title}</span>
+            <span className="sm:hidden">{t.title}</span>
           </div>
 
 

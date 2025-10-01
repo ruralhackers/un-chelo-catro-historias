@@ -13,8 +13,7 @@ const Documentary: React.FC = () => {
             {t.documentaryTitle}
           </h2>
           <p className="text-lg font-sans text-mine-shaft max-w-3xl mx-auto leading-relaxed">
-            O proceso de creación do chelo documentado en toda a súa extensión. 
-            Desde os bosques ata o taller, cada paso da xornada creativa.
+            {t.documentaryDescription}
           </p>
         </div>
 
@@ -25,7 +24,7 @@ const Documentary: React.FC = () => {
               <iframe
                 className="w-full h-full"
                 src="https://www.youtube.com/embed/yHwthqyMGI8"
-                title="Documental Chelo Catro"
+                title={t.documentaryTitle}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
@@ -37,33 +36,33 @@ const Documentary: React.FC = () => {
         {/* Documentary Team Credits */}
         <div className="bg-caliz-plata/10 rounded-2xl p-8">
           <h3 className="text-2xl font-serif text-negro mb-6 text-center">
-            Equipo do documental
+            {t.documentaryTeam.title}
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="text-center">
               <h4 className="font-serif font-bold text-negro mb-2">Arián Quinteiro</h4>
-              <p className="text-sm text-roca mb-2">Dirección</p>
+              <p className="text-sm text-roca mb-2">{t.documentaryTeam.roles.direction}</p>
               <a href="https://arianquinteiro.com/" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:text-amber-700 text-sm">
                 arianquinteiro.com
               </a>
             </div>
             <div className="text-center">
               <h4 className="font-serif font-bold text-negro mb-2">Borja Freire</h4>
-              <p className="text-sm text-roca mb-2">Posproducción de son</p>
+              <p className="text-sm text-roca mb-2">{t.documentaryTeam.roles.soundPost}</p>
               <a href="https://www.borjafreiresonido.com/" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:text-amber-700 text-sm">
                 borjafreiresonido.com
               </a>
             </div>
             <div className="text-center">
               <h4 className="font-serif font-bold text-negro mb-2">Martín F. Gamarra</h4>
-              <p className="text-sm text-roca mb-2">Montaxe</p>
+              <p className="text-sm text-roca mb-2">{t.documentaryTeam.roles.editing}</p>
               <a href="https://martinfgamarra.com/" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:text-amber-700 text-sm">
                 martinfgamarra.com
               </a>
             </div>
             <div className="text-center">
               <h4 className="font-serif font-bold text-negro mb-2">Thomas Schwarz</h4>
-              <p className="text-sm text-roca mb-2">Segunda cámara</p>
+              <p className="text-sm text-roca mb-2">{t.documentaryTeam.roles.secondCamera}</p>
               <a href="https://www.instagram.com/thomasinho.schwarz/" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:text-amber-700 text-sm">
                 @thomasinho.schwarz
               </a>

@@ -21,6 +21,12 @@ const TypewriterText: React.FC<TypewriterTextProps> = ({
   const { ref, isVisible } = useScrollAnimation({ threshold });
 
   useEffect(() => {
+    // Reset when text changes (language change)
+    setDisplayedText('');
+    setCurrentIndex(0);
+  }, [text]);
+
+  useEffect(() => {
     if (!isVisible) {
       setDisplayedText('');
       setCurrentIndex(0);

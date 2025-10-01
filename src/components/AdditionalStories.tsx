@@ -18,8 +18,7 @@ const AdditionalStories: React.FC = () => {
               {t.additionalStoriesTitle}
             </h2>
             <p className="text-lg font-sans text-caliz-plata max-w-3xl mx-auto leading-relaxed">
-              Máis historias que forman parte desta sinfonía de madeiras. Cada contribución 
-              engade unha nova dimensión ao proxecto, enriquecendo a narrativa cultural.
+              {t.additionalStoriesIntro}
             </p>
           </div>
         </AnimatedSection>
@@ -45,12 +44,10 @@ const AdditionalStories: React.FC = () => {
         <AnimatedSection animation="slideUp" delay={800}>
           <div className="text-center bg-mine-shaft rounded-2xl p-12">
             <h2 className="text-3xl font-serif mb-6">
-              Voces complementarias
+              {t.additionalStoriesVoices.title}
             </h2>
             <p className="text-lg font-sans text-caliz-plata max-w-3xl mx-auto leading-relaxed">
-              Estas historias, aínda que non forman parte do núcleo principal do chelo, 
-              son esenciais para entender a riqueza e complexidade do proxecto. Cada unha 
-              achega a súa propia perspectiva sobre a relación entre artesanía e tradición.
+              {t.additionalStoriesVoices.description}
             </p>
           </div>
         </AnimatedSection>

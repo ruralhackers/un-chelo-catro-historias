@@ -2,6 +2,7 @@ import React from 'react';
 import { X } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { mainStories, additionalStories } from '../data/stories';
+import { useStoryTranslations } from '../hooks/useStoryTranslations';
 
 interface StoryModalProps {
   storyId: string;
@@ -10,6 +11,7 @@ interface StoryModalProps {
 
 const StoryModal: React.FC<StoryModalProps> = ({ storyId, onClose }) => {
   const { t } = useLanguage();
+  const { getStoryText } = useStoryTranslations();
   
   const allStories = [...mainStories, ...additionalStories];
   const story = allStories.find(s => s.id === storyId);
@@ -77,7 +79,7 @@ const StoryModal: React.FC<StoryModalProps> = ({ storyId, onClose }) => {
               
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg font-sans leading-relaxed mb-6">
-                  {story.fullStory}
+                  {getStoryText(story, 'fullStory')}
                 </p>
               </div>
 
@@ -85,7 +87,7 @@ const StoryModal: React.FC<StoryModalProps> = ({ storyId, onClose }) => {
                 isAdditionalStory ? 'border-amber-300' : 'border-amber-600'
               } pl-6 py-4`}>
                 <blockquote className="text-lg font-serif italic opacity-90">
-                  "{story.preview}"
+                  "{getStoryText(story, 'preview')}"
                 </blockquote>
               </div>
             </div>
@@ -95,18 +97,18 @@ const StoryModal: React.FC<StoryModalProps> = ({ storyId, onClose }) => {
           <div className={`mt-12 p-6 rounded-xl ${
             isAdditionalStory ? 'bg-gray-800' : 'bg-gray-50'
           }`}>
-            <h3 className="text-xl font-serif font-bold mb-4">Sobre a madeira</h3>
+            <h3 className="text-xl font-serif font-bold mb-4">{t.storyModal.aboutWood}</h3>
             <div className="grid md:grid-cols-3 gap-6">
               <div>
-                <h4 className={`font-sans font-bold mb-2 ${accentClass}`}>Tipo</h4>
+                <h4 className={`font-sans font-bold mb-2 ${accentClass}`}>{t.storyModal.type}</h4>
                 <p className="font-sans">{story.wood}</p>
               </div>
               <div>
-                <h4 className={`font-sans font-bold mb-2 ${accentClass}`}>Procedencia</h4>
+                <h4 className={`font-sans font-bold mb-2 ${accentClass}`}>{t.storyModal.origin}</h4>
                 <p className="font-sans">{story.province}</p>
               </div>
               <div>
-                <h4 className={`font-sans font-bold mb-2 ${accentClass}`}>Artesán</h4>
+                <h4 className={`font-sans font-bold mb-2 ${accentClass}`}>{t.storyModal.artisan}</h4>
                 <p className="font-sans">{story.name}</p>
               </div>
             </div>

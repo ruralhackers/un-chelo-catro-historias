@@ -1,11 +1,16 @@
 import React from 'react';
 import { Collaboration } from '../types';
+import { useStoryTranslations } from '../hooks/useStoryTranslations';
+import { useLanguage } from '../context/LanguageContext';
 
 interface CollaborationCardProps {
   collaboration: Collaboration;
 }
 
 const CollaborationCard: React.FC<CollaborationCardProps> = ({ collaboration }) => {
+  const { getCollaborationDescription } = useStoryTranslations();
+  const { t } = useLanguage();
+  
   return (
     <div className="group cursor-pointer relative h-80 perspective-1000">
       {/* Flip Container */}
@@ -62,8 +67,8 @@ const CollaborationCard: React.FC<CollaborationCardProps> = ({ collaboration }) 
                 {collaboration.role}
               </div>
             )}
-            {collaboration.description && (
-              <p className="text-sm font-sans leading-relaxed mb-4">{collaboration.description}</p>
+            {getCollaborationDescription(collaboration) && (
+              <p className="text-sm font-sans leading-relaxed mb-4">{getCollaborationDescription(collaboration)}</p>
             )}
             {collaboration.website && (
               <a 
@@ -72,7 +77,7 @@ const CollaborationCard: React.FC<CollaborationCardProps> = ({ collaboration }) 
                 rel="noopener noreferrer"
                 className="text-amber-600 hover:text-amber-700 text-sm font-medium"
               >
-                Ver máis
+{t.collaborationCard.seeMore}
               </a>
             )}
             <div className="w-12 h-1 bg-mine-shaft rounded-full mx-auto group-hover:w-16 transition-all duration-300 mt-4"></div>

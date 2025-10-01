@@ -14,8 +14,7 @@ const Collaborations: React.FC = () => {
             {t.collaborationsTitle}
           </h2>
           <p className="text-lg font-sans text-caliz-plata max-w-3xl mx-auto leading-relaxed">
-            Un proxecto desta magnitude só é posible grazas ao talento e dedicación 
-            dun equipo multidisciplinario comprometido coa excelencia cultural.
+            {t.collaborationsIntro}
           </p>
         </div>
 
