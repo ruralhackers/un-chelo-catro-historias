@@ -17,7 +17,12 @@ const CollaborationCard: React.FC<CollaborationCardProps> = ({ collaboration }) 
               <img
                 src={collaboration.image}
                 alt={`${collaboration.name} - ${collaboration.role}`}
-                className="w-full h-full object-cover object-top"
+                className="w-full h-full object-cover"
+                style={{ 
+                  objectPosition: collaboration.name === 'Laura Calvo' 
+                    ? 'center 10%' 
+                    : 'center 30%' 
+                }}
                 loading="lazy"
               />
               {/* Gradient overlay for better text readability */}

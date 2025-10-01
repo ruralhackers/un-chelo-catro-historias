@@ -39,7 +39,7 @@ const Home: React.FC = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-60"
           style={{
-            backgroundImage: 'url(https://images.pexels.com/photos/6032500/pexels-photo-6032500.jpeg)'
+            backgroundImage: 'url(/images/chelo.jpg)'
           }}
           role="img"
           aria-label="Paisaje rural gallego con violonchelo, representando la conexión entre la tradición artesanal y la música"

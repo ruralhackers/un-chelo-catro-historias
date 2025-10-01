@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
         <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-12">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-serif font-bold text-negro mb-6">
-              Póñete en contacto con nós
+              Ponte en contacto con nós
             </h2>
             <p className="text-lg font-sans text-mine-shaft max-w-2xl mx-auto">
               Estamos abertos a colaboracións con centros culturais, escolas, universidades, 
