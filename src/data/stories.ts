@@ -7,14 +7,14 @@ export const mainStories: Story[] = [
     wood: 'castaño/castiñeiro',
     province: 'Lugo',
     preview: {
-      gl: 'Un artesán que traballa coa tradición do castaño galego, mantendo vivas as técnicas ancestrais.',
-      es: 'Un artesano que trabaja con la tradición del castaño gallego, manteniendo vivas las técnicas ancestrales.',
-      en: 'An artisan who works with the tradition of Galician chestnut, keeping ancestral techniques alive.'
+      gl: 'Emprendedor rural que quedou prendado de Seceda e desenvolveu Lar da Cima e A Barreira.',
+      es: 'Emprendedor rural que se enamoró de Seceda y desarrolló Lar da Cima y A Barreira.',
+      en: 'Rural entrepreneur who fell in love with Seceda and developed Lar da Cima and A Barreira.'
     },
     fullStory: {
-      gl: 'Javier Merelas dedica a súa vida ao traballo artesanal co castaño galego. Nas súas mans, a madeira cobra vida e forma, mantendo viva unha tradición que se remonta a xeracións. O seu taller en Lugo é un lugar onde o tempo parece deténse, onde cada golpe de formón conta unha historia diferente. A súa madeira aporta ao chelo a fortaleza e a resistencia que caracterizan ao pobo galego.',
-      es: 'Javier Merelas dedica su vida al trabajo artesanal con el castaño gallego. En sus manos, la madera cobra vida y forma, manteniendo viva una tradición que se remonta a generaciones. Su taller en Lugo es un lugar donde el tiempo parece detenerse, donde cada golpe de formón cuenta una historia diferente. Su madera aporta al chelo la fortaleza y la resistencia que caracterizan al pueblo gallego.',
-      en: 'Javier Merelas dedicates his life to artisanal work with Galician chestnut. In his hands, wood comes to life and takes shape, keeping alive a tradition that goes back generations. His workshop in Lugo is a place where time seems to stop, where each chisel stroke tells a different story. His wood brings to the cello the strength and resistance that characterize the Galician people.'
+      gl: 'Con dezanove anos Javier quedou prendado de Seceda nunha sensación que él mesmo di que é difícil de explicar... Quería vivir vinculado ao monte e comezou coa idea dunha explotación de cabras, non resultou pero logo xurdiu Lar da Cima e A Barreira o proxecto de rehabilitación de dúas vivendas seguindo métodos e formas de respecto coa contorna. Na actualidade estas son o seu sustento económico e a súa forma de vida. O castiñeiro que forma os aros do violonchelo foi o chan desa casa sobre o que pisaron familias e fixeron vida...',
+      es: 'Con diecinueve años Javier se enamoró de Seceda en una sensación que él mismo dice que es difícil de explicar... Quería vivir vinculado al monte y comenzó con la idea de una explotación de cabras, no resultó pero luego surgió Lar da Cima y A Barreira el proyecto de rehabilitación de dos viviendas siguiendo métodos y formas de respeto con el entorno. En la actualidad estas son su sustento económico y su forma de vida. El castaño que forma los aros del violonchelo fue el suelo de esa casa sobre el que pisaron familias y hicieron vida...',
+      en: 'At nineteen years old Javier fell in love with Seceda in a feeling that he himself says is difficult to explain... He wanted to live linked to the mountain and began with the idea of a goat farm, it didn\'t work out but then Lar da Cima and A Barreira emerged, the project of rehabilitating two houses following methods and forms of respect with the environment. Currently these are his economic sustenance and his way of life. The chestnut that forms the ribs of the cello was the floor of that house on which families stepped and made life...'
     },
     image: '/images/javier-merelas.jpg'
   },
@@ -24,14 +24,14 @@ export const mainStories: Story[] = [
     wood: 'tejo/teixo',
     province: 'Lugo',
     preview: {
-      gl: 'Gardadores da memoria dos teixos milenarios, protexen o bosque sagrado de Galicia.',
-      es: 'Guardianes de la memoria de los tejos milenarios, protegen el bosque sagrado de Galicia.',
-      en: 'Guardians of the memory of the millennial yews, they protect the sacred forest of Galicia.'
+      gl: 'Emprendedores rurais que rehabilitaron a antiga escola do pobo converténdoa nun albergue turístico.',
+      es: 'Emprendedores rurales que rehabilitaron la antigua escuela del pueblo convirtiéndola en un albergue turístico.',
+      en: 'Rural entrepreneurs who rehabilitated the old village school turning it into a tourist hostel.'
     },
     fullStory: {
-      gl: 'Pedro e Elba son os gardians dos teixos milenarios de Lugo. A súa misión transcende o simple coidado das árbores; son preservadores dunha memoria ancestral, protectores dun ecosistema único. O teixo que aportan ao chelo leva consigo séculos de historia, a sabedoría dos bosques sagrados galegos e o respecto pola natureza que caracteriza a súa filosofía de vida.',
-      es: 'Pedro y Elba son los guardianes de los tejos milenarios de Lugo. Su misión trasciende el simple cuidado de los árboles; son preservadores de una memoria ancestral, protectores de un ecosistema único. El tejo que aportan al chelo lleva consigo siglos de historia, la sabiduría de los bosques sagrados gallegos y el respeto por la naturaleza que caracteriza su filosofía de vida.',
-      en: 'Pedro and Elba are the guardians of the millennial yews of Lugo. Their mission transcends the simple care of trees; they are preservers of an ancestral memory, protectors of a unique ecosystem. The yew they bring to the cello carries with it centuries of history, the wisdom of the sacred Galician forests and the respect for nature that characterizes their philosophy of life.'
+      gl: 'Eco dos Teixos é un no que dous mozos rehabilitaron a antiga escola do pobo e converténdoa nun albergue turístico con actividades que o complementan. As súas liñas de traballo son a educación ambiental, rutas de sendeirismo, campamentos de diferentes tipos e obradoiros de artesanía-danza-circo etc. Este proxecto pon en valor a importancia dun lugar tan singular Casaio e especialmente o Teixadal; un dos reductos de teixos máis importantes de Europa que posee máis de catrocentos teixos que alcanzan idades superiores aos cincocentos anos. O teixo forma parte da pestana superior e inferior do violonchelo e é unha rama caída traida do propio teixadal.',
+      es: 'Eco dos Teixos es un lugar donde dos jóvenes rehabilitaron la antigua escuela del pueblo y la convirtieron en un albergue turístico con actividades que lo complementan. Sus líneas de trabajo son la educación ambiental, rutas de senderismo, campamentos de diferentes tipos y talleres de artesanía-danza-circo etc. Este proyecto pone en valor la importancia de un lugar tan singular Casaio y especialmente el Teixadal; uno de los reductos de tejos más importantes de Europa que posee más de cuatrocientos tejos que alcanzan edades superiores a los quinientos años. El tejo forma parte de la pestana superior e inferior del violonchelo y es una rama caída traída del propio teixadal.',
+      en: 'Eco dos Teixos is a place where two young people rehabilitated the old village school and turned it into a tourist hostel with activities that complement it. Their lines of work are environmental education, hiking routes, different types of camps and craft-dance-circus workshops etc. This project values the importance of such a unique place Casaio and especially the Teixadal; one of the most important yew refuges in Europe that has more than four hundred yews that reach ages over five hundred years. The yew forms part of the upper and lower nut of the cello and is a fallen branch brought from the teixadal itself.'
     },
     image: '/images/pedro-elba.jpg'
   },
@@ -41,51 +41,68 @@ export const mainStories: Story[] = [
     wood: 'pino de Oregón',
     province: 'Pontevedra',
     preview: {
-      gl: 'Mestre carpinteiro que combina tradición e innovación no traballo da madeira.',
-      es: 'Maestro carpintero que combina tradición e innovación en el trabajo de la madera.',
-      en: 'Master carpenter who combines tradition and innovation in woodworking.'
+      gl: 'Escultor formado na escola Pablo Picasso da Coruña, especialista en talla escultórica con motoserra.',
+      es: 'Escultor formado en la escuela Pablo Picasso de La Coruña, especialista en talla escultórica con motosierra.',
+      en: 'Sculptor trained at the Pablo Picasso school in La Coruña, specialist in sculptural carving with chainsaw.'
     },
     fullStory: {
-      gl: 'Iván Matos representa a evolución da carpintería galega. Na súa oficina en Pontevedra, o pino de Oregón toma formas inesperadas baixo as súas mans expertas. Combina técnicas tradicionais coa innovación, creando pezas que respectan o pasado mentres abrazan o futuro. A súa contribución ao chelo é unha ponte entre mundos, entre o que fomos e o que podemos chegar a ser.',
-      es: 'Iván Matos representa la evolución de la carpintería gallega. En su oficina en Pontevedra, el pino de Oregón toma formas inesperadas bajo sus manos expertas. Combina técnicas tradicionales con la innovación, creando piezas que respetan el pasado mientras abrazan el futuro. Su contribución al chelo es un puente entre mundos, entre lo que fuimos y lo que podemos llegar a ser.',
-      en: 'Iván Matos represents the evolution of Galician carpentry. In his office in Pontevedra, Oregon pine takes unexpected shapes under his expert hands. He combines traditional techniques with innovation, creating pieces that respect the past while embracing the future. His contribution to the cello is a bridge between worlds, between what we were and what we can become.'
+      gl: 'Formouse na escola Pablo Picasso da Coruña onde aprendeu as técnicas escultóricas máis elementais como a talla en pedra, moldeando e baleirando, forxa artística e talla en madeira. Estudou Belas Artes e pouco a pouco foi crecendo como escultor, traballando en obras persoais e tamén atendendo as encargas de clientes. Enfocouse na tala escultórica coa especialidade en motoserra, chegou a representar a España no festival Tosmk (Rusia) cunha figura dun gorila xigante. A madeira que aportou a este proxecto é o pino de Oregón plantado en Altamira (A Coruña) que iba a ser material para unha escultura.',
+      es: 'Se formó en la escuela Pablo Picasso de La Coruña donde aprendió las técnicas escultóricas más elementales como la talla en piedra, moldeando y vaciando, forja artística y talla en madera. Estudió Bellas Artes y poco a poco fue creciendo como escultor, trabajando en obras personales y también atendiendo los encargos de clientes. Se enfocó en la talla escultórica con la especialidad en motosierra, llegó a representar a España en el festival Tosmk (Rusia) con una figura de un gorila gigante. La madera que aportó a este proyecto es el pino de Oregón plantado en Altamira (A Coruña) que iba a ser material para una escultura.',
+      en: 'He trained at the Pablo Picasso school in La Coruña where he learned the most elementary sculptural techniques such as stone carving, molding and hollowing, artistic forging and wood carving. He studied Fine Arts and little by little grew as a sculptor, working on personal works and also attending to client commissions. He focused on sculptural carving with chainsaw specialty, came to represent Spain at the Tosmk festival (Russia) with a giant gorilla figure. The wood he contributed to this project is the Oregon pine planted in Altamira (A Coruña) that was going to be material for a sculpture.'
     },
     image: '/images/ivan-matos.jpg'
   },
+  {
+    id: 'adri-pereiro',
+    name: 'Adri Pereiro',
+    wood: 'luthier',
+    province: 'A Coruña',
+    preview: {
+      gl: 'Luthier de instrumentos de corda frotada e creador do proxecto Un chelo e catro historias.',
+      es: 'Luthier de instrumentos de cuerda frotada y creador del proyecto Un chelo y cuatro historias.',
+      en: 'Luthier of bowed string instruments and creator of the project A cello and four stories.'
+    },
+    fullStory: {
+      gl: 'Adri Pereiro é luthier de instrumentos de corda frotada. Na súa paixón por coñecer as posibilidades que ofrecen as madeiras locais xurde este proxecto "Un chelo e catro historias". Actualmente desenrola a súa actividade como luthier na cidade da Coruña onde segue a analizar as posibilidades físico acústicas das madeiras locais (e de fora) na construción deste instrumento.',
+      es: 'Adri Pereiro es luthier de instrumentos de cuerda frotada. En su pasión por conocer las posibilidades que ofrecen las maderas locales surge este proyecto "Un chelo y cuatro historias". Actualmente desarrolla su actividad como luthier en la ciudad de La Coruña donde sigue analizando las posibilidades físico acústicas de las maderas locales (y de fuera) en la construcción de este instrumento.',
+      en: 'Adri Pereiro is a luthier of bowed string instruments. In his passion for knowing the possibilities that local woods offer, this project "A cello and four stories" arises. Currently he develops his activity as a luthier in the city of La Coruña where he continues to analyze the physical-acoustic possibilities of local woods (and from outside) in the construction of this instrument.'
+    },
+    image: '/images/adrian.jpg'
+  }
+];
+
+export const additionalStories: Story[] = [
   {
     id: 'xaneco',
     name: 'Xaneco',
     wood: 'ciruelo/ciruelo',
     province: 'Pontevedra',
     preview: {
-      gl: 'Un visionario que ve na madeira de ciruelo as posibilidades infinitas da creación.',
-      es: 'Un visionario que ve en la madera de ciruelo las posibilidades infinitas de la creación.',
-      en: 'A visionary who sees in plum wood the infinite possibilities of creation.'
+      gl: 'Artesá de percusión tradicional e zanfonas asentado en Outeiro de Rei (Lugo).',
+      es: 'Artesano de percusión tradicional y zanfonas asentado en Outeiro de Rei (Lugo).',
+      en: 'Traditional percussion and hurdy-gurdy artisan settled in Outeiro de Rei (Lugo).'
     },
     fullStory: {
-      gl: 'Xaneco é un artista visionario que traballa coa madeira de ciruelo na provincia de Pontevedra. Comezou a súa traxectoria na EMAO de Vigo, onde desenvolveu a súa paixón pola madeira e a creación. Para el, cada tronco é un universo de posibilidades esperando ser descuberto. A súa aproximación á madeira é case mística, escolta o que cada peza ten que dicirllle e responde con ferramentas e intuición. O ciruelo que achega ao chelo porta a doçura e a delicadeza dos froitos da terra galega.',
-      es: 'Xaneco es un artista visionario que trabaja con la madera de ciruelo en la provincia de Pontevedra. Comenzó su trayectoria en la EMAO de Vigo, donde desarrolló su pasión por la madera y la creación. Para él, cada tronco es un universo de posibilidades esperando ser descubierto. Su aproximación a la madera es casi mística, escucha lo que cada pieza tiene que decirle y responde con herramientas e intuición. El ciruelo que aporta al chelo porta la dulzura y la delicadeza de los frutos de la tierra gallega.',
-      en: 'Xaneco is a visionary artist who works with plum wood in the province of Pontevedra. He began his career at the EMAO in Vigo, where he developed his passion for wood and creation. For him, each trunk is a universe of possibilities waiting to be discovered. His approach to wood is almost mystical, he listens to what each piece has to tell him and responds with tools and intuition. The plum wood he brings to the cello carries the sweetness and delicacy of the fruits of the Galician land.'
+      gl: 'Artesá de percusión tradicional e zanfonas asentado en Outeiro de Rei (Lugo) cunha dilatada traxectoria é unha peza fundamental da AGG e organizador da Mostra de Instrumentos de Música Tradicional no festival de Pardiñas. Colaborou neste proxecto coa madeira de Ciruelo que forma parte do batedor do instrumento; este era dunha árbore que se atopaba na casa de seu pai.',
+      es: 'Artesano de percusión tradicional y zanfonas asentado en Outeiro de Rei (Lugo) con una dilatada trayectoria es una pieza fundamental de la AGG y organizador de la Mostra de Instrumentos de Música Tradicional en el festival de Pardiñas. Colaboró en este proyecto con la madera de Ciruelo que forma parte del batedor del instrumento; este era de un árbol que se encontraba en la casa de su padre.',
+      en: 'Traditional percussion and hurdy-gurdy artisan settled in Outeiro de Rei (Lugo) with a long career is a fundamental piece of the AGG and organizer of the Traditional Musical Instruments Show at the Pardiñas festival. He collaborated in this project with the Ciruelo wood that forms part of the instrument\'s beater; this was from a tree that was in his father\'s house.'
     },
     image: '/images/xaneco.jpg'
-  }
-];
-
-export const additionalStories: Story[] = [
+  },
   {
     id: 'cesar-magali',
-    name: 'Cesar Magali',
+    name: 'Cesar Arias',
     wood: 'ciprés',
     province: 'Galicia',
     preview: {
-      gl: 'Coñecedor profundo da madeira de ciprés e as súas propiedades únicas.',
-      es: 'Conocedor profundo de la madera de ciprés y sus propiedades únicas.',
-      en: 'Deep connoisseur of cypress wood and its unique properties.'
+      gl: 'Luthier de instrumentos de corda pulsada antigos, asentado no Areal (Santiago de Compostela).',
+      es: 'Luthier de instrumentos de cuerda pulsada antiguos, asentado en el Areal (Santiago de Compostela).',
+      en: 'Luthier of ancient plucked string instruments, settled in the Areal (Santiago de Compostela).'
     },
     fullStory: {
-      gl: 'Cesar Magali ten unha relación especial co ciprés galego. Coñece cada anel da madeira, cada veta que conta os anos pasados. O seu traballo caracterízase pola precisión e o respecto absoluto polas propiedades naturais da madeira. O ciprés que achega proxecto ten a durabilidade e a resistencia ao tempo que simboliza a permanencia da cultura galega.',
-      es: 'Cesar Magali tiene una relación especial con el ciprés gallego. Conoce cada anillo de la madera, cada veta que cuenta los años pasados. Su trabajo se caracteriza por la precisión y el respeto absoluto por las propiedades naturales de la madera. El ciprés que aporta al proyecto tiene la durabilidad y resistencia al tiempo que simboliza la permanencia de la cultura gallega.',
-      en: 'Cesar Magali has a special relationship with Galician cypress. He knows every ring of the wood, every grain that tells the years gone by. His work is characterized by precision and absolute respect for the natural properties of wood. The cypress he brings to the project has the durability and resistance to time that symbolizes the permanence of Galician culture.'
+      gl: 'Luthier de instrumentos de corda pulsada antigos, asentado no Areal (Santiago de Compostela) leva varias décadas adicado a este campo da luthería e a súa investigación. A madeira que aportou a este proxecto foi o ciprés para a tapa, unha madeira que inicialmente iba a ser para un escultor e que se atopaba nun aserradoiro preto de Pontevedra.',
+      es: 'Luthier de instrumentos de cuerda pulsada antiguos, asentado en el Areal (Santiago de Compostela) lleva varias décadas dedicado a este campo de la luthería y su investigación. La madera que aportó a este proyecto fue el ciprés para la tapa, una madera que inicialmente iba a ser para un escultor y que se encontraba en un aserradero cerca de Pontevedra.',
+      en: 'Luthier of ancient plucked string instruments, settled in the Areal (Santiago de Compostela) has been dedicated to this field of lutherie and its research for several decades. The wood he contributed to this project was cypress for the top, a wood that was initially going to be for a sculptor and that was found in a sawmill near Pontevedra.'
     },
     image: '/images/cesar-magali.jpg'
   },
@@ -95,14 +112,14 @@ export const additionalStories: Story[] = [
     wood: 'cerezo/cerdeira',
     province: 'Galicia',
     preview: {
-      gl: 'Especialista na madeira de cerezo, busca a harmonía perfecta entre forma e función.',
-      es: 'Especialista en la madera de cerezo, busca la armonía perfecta entre forma y función.',
-      en: 'Specialist in cherry wood, he seeks the perfect harmony between form and function.'
+      gl: 'Luthier de instrumentos de corda frotada asentado na cidade de Pontevedra.',
+      es: 'Luthier de instrumentos de cuerda frotada asentado en la ciudad de Pontevedra.',
+      en: 'Luthier of bowed string instruments settled in the city of Pontevedra.'
     },
     fullStory: {
-      gl: 'Roi Earan atopa na madeira de cerezo a expresión perfecta da harmonía. O seu traballo busca sempre o equilibrio entre a funcionalidade e a beleza, entre a tradición e a innovación. Cada peza que crea é un poema en madeira, unha melodía silente que agarda ser escoitada. O cerezo que aporta ao chelo leva a promesa da primavera eterna.',
-      es: 'Roi Earan encuentra en la madera de cerezo la expresión perfecta de la armonía. Su trabajo busca siempre el equilibrio entre la funcionalidad y la belleza, entre la tradición y la innovación. Cada pieza que crea es un poema en madera, una melodía silente que espera ser escuchada. El cerezo que aporta al chelo lleva la promesa de la primavera eterna.',
-      en: 'Roi Earan finds in cherry wood the perfect expression of harmony. His work always seeks the balance between functionality and beauty, between tradition and innovation. Each piece he creates is a poem in wood, a silent melody waiting to be heard. The cherry wood he brings to the cello carries the promise of eternal spring.'
+      gl: 'Luthier de instrumentos de corda frotada asentado na cidade de Pontevedra, antigo compañeiro de EMAO de Vigo. Aportou unha peza de cerdeira para o mango do instrumento.',
+      es: 'Luthier de instrumentos de cuerda frotada asentado en la ciudad de Pontevedra, antiguo compañero de EMAO de Vigo. Aportó una pieza de cerezo para el mango del instrumento.',
+      en: 'Luthier of bowed string instruments settled in the city of Pontevedra, former colleague from EMAO de Vigo. He contributed a cherry piece for the instrument\'s neck.'
     },
     image: '/images/roi-earan.jpg'
   },
@@ -112,14 +129,14 @@ export const additionalStories: Story[] = [
     wood: 'chopo',
     province: 'Galicia',
     preview: {
-      gl: 'Artesán do chopo que encontra beleza na simplicidade e na funcionalidade.',
-      es: 'Artesano del chopo que encuentra belleza en la simplicidad y en la funcionalidad.',
-      en: 'Poplar artisan who finds beauty in simplicity and functionality.'
+      gl: 'Carpinteiro de Vilar de Cancelada (Becerreá) adicado á elaboración de moblería.',
+      es: 'Carpintero de Vilar de Cancelada (Becerreá) dedicado a la elaboración de mobiliario.',
+      en: 'Carpenter from Vilar de Cancelada (Becerreá) dedicated to furniture making.'
     },
     fullStory: {
-      gl: 'Inazio traballa co chopo cunha filosofía de simplicidade e funcionalidade. Para el, a beleza reside na pureza das liñas, na honestidade dos materiais. O chopo que achega ao proxecto representa a humildade e a fortaleza silenciosa, as calidades que definen o carácter galego máis auténtico.',
-      es: 'Inazio trabaja con el chopo con una filosofía de simplicidad y funcionalidad. Para él, la belleza reside en la pureza de las líneas, en la honestidad de los materiales. El chopo que aporta al proyecto representa la humildad y la fortaleza silenciosa, las cualidades que definen el carácter gallego más auténtico.',
-      en: 'Inazio works with poplar with a philosophy of simplicity and functionality. For him, beauty lies in the purity of lines, in the honesty of materials. The poplar he brings to the project represents humility and silent strength, the qualities that define the most authentic Galician character.'
+      gl: 'Carpinteiro de Vilar de Cancelada (Becerreá) adicase a elaboración de moblería en madeira nobre do país. Aportou unha peza de chopo dunha árbore talada a veira da autoestrada de Baralla.',
+      es: 'Carpintero de Vilar de Cancelada (Becerreá) se dedica a la elaboración de mobiliario en madera noble del país. Aportó una pieza de chopo de un árbol talado a la vera de la autopista de Baralla.',
+      en: 'Carpenter from Vilar de Cancelada (Becerreá) is dedicated to making furniture in noble wood from the country. He contributed a poplar piece from a tree felled on the side of the Baralla highway.'
     },
     image: '/images/inazio.jpg'
   }
@@ -161,12 +178,22 @@ export const collaborations: Collaboration[] = [
   { 
     name: 'Ensaia', 
     role: 'Talento Galego',
+    description: {
+      gl: 'Ensaia é unha plataforma que promove e apoia o talento galego en diferentes ámbitos culturais e artísticos.',
+      es: 'Ensaia es una plataforma que promueve y apoya el talento gallego en diferentes ámbitos culturales y artísticos.',
+      en: 'Ensaia is a platform that promotes and supports Galician talent in different cultural and artistic fields.'
+    },
     image: '/images/chelo-2.jpg',
     website: 'https://ensaia.com'
   },
   { 
     name: 'Nerea Pallares', 
     role: 'Poeta',
+    description: {
+      gl: 'Nerea Pallares é unha poeta galega que colaborou no proxecto creando textos que se atopan escritos dentro do fondo do instrumento.',
+      es: 'Nerea Pallares es una poeta gallega que colaboró en el proyecto creando textos que se encuentran escritos dentro del fondo del instrumento.',
+      en: 'Nerea Pallares is a Galician poet who collaborated on the project by creating texts that are written inside the back of the instrument.'
+    },
     image: '/images/nerea-pallares.jpg'
   },
   { 
@@ -182,6 +209,11 @@ export const collaborations: Collaboration[] = [
   { 
     name: 'Yago Fandiño', 
     role: 'Comunicación',
+    description: {
+      gl: 'Yago Fandiño é un tatuador residente na Coruña, amante do debuxo e da caligrafía ornamental traballa sobre a pel e o papel cun estilo denominado lettering. A súa contribución neste proxecto foi a colaboración directa con Nerea Pallares no traballo de caligrafía ornamental do texto creado por Nerea; que tamén se atopa escrito dentro do fondo do instrumento.',
+      es: 'Yago Fandiño es un tatuador residente en La Coruña, amante del dibujo y la caligrafía ornamental trabaja sobre la piel y el papel con un estilo denominado lettering. Su contribución en este proyecto fue la colaboración directa con Nerea Pallares en el trabajo de caligrafía ornamental del texto creado por Nerea; que también se encuentra escrito dentro del fondo del instrumento.',
+      en: 'Yago Fandiño is a tattoo artist resident in La Coruña, lover of drawing and ornamental calligraphy works on skin and paper with a style called lettering. His contribution to this project was direct collaboration with Nerea Pallares in the ornamental calligraphy work of the text created by Nerea; which is also written inside the back of the instrument.'
+    },
     image: '/images/yago-fandino.jpg'
   }
 ];
