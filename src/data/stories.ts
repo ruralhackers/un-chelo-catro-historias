@@ -39,7 +39,7 @@ export const mainStories: Story[] = [
     id: 'ivan-matos',
     name: 'Iván Matos',
     wood: 'pino de Oregón',
-    province: 'Pontevedra',
+    province: 'A Coruña',
     preview: {
       gl: 'Escultor formado na escola Pablo Picasso da Coruña, especialista en talla escultórica con motoserra.',
       es: 'Escultor formado en la escuela Pablo Picasso de La Coruña, especialista en talla escultórica con motosierra.',
@@ -56,7 +56,7 @@ export const mainStories: Story[] = [
     id: 'adri-pereiro',
     name: 'Adri Pereiro',
     wood: 'luthier',
-    province: 'A Coruña',
+    province: 'Pontevedra',
     preview: {
       gl: 'Luthier de instrumentos de corda frotada e creador do proxecto Un chelo e catro historias.',
       es: 'Luthier de instrumentos de cuerda frotada y creador del proyecto Un chelo y cuatro historias.',
@@ -173,7 +173,7 @@ export const collaborations: Collaboration[] = [
       en: 'The Bilboko Euskal Luthería Eskola has been training bowed string luthiers from all over the world since 1986. From the beginning they showed interest in the project and supported it with all the material and time necessary to provide acoustic foundations on which to structure the project.'
     },
     website: 'https://www.bele.es/es/',
-    image: '/images/chelo-3.jpg'
+    image: '/images/bele.jpeg'
   },
   { 
     name: 'Ensaia', 
@@ -208,7 +208,7 @@ export const collaborations: Collaboration[] = [
   },
   { 
     name: 'Yago Fandiño', 
-    role: 'Comunicación',
+    role: 'Tatuador',
     description: {
       gl: 'Yago Fandiño é un tatuador residente na Coruña, amante do debuxo e da caligrafía ornamental traballa sobre a pel e o papel cun estilo denominado lettering. A súa contribución neste proxecto foi a colaboración directa con Nerea Pallares no traballo de caligrafía ornamental do texto creado por Nerea; que tamén se atopa escrito dentro do fondo do instrumento.',
       es: 'Yago Fandiño es un tatuador residente en La Coruña, amante del dibujo y la caligrafía ornamental trabaja sobre la piel y el papel con un estilo denominado lettering. Su contribución en este proyecto fue la colaboración directa con Nerea Pallares en el trabajo de caligrafía ornamental del texto creado por Nerea; que también se encuentra escrito dentro del fondo del instrumento.',

@@ -52,7 +52,7 @@ export const translations: Record<Language, TranslationContent> = {
         },
         concerts: {
           title: 'Conciertos e Demostracións',
-          description: 'Mostramos o chelo en acción e interpretamos pezas da tradición musical galega'
+          description: 'Mostramos o chelo en acción e interpretamos pezas compostas específicamente para este proxecto'
         },
         events: {
           title: 'Eventos Personalizados',
@@ -137,7 +137,7 @@ export const translations: Record<Language, TranslationContent> = {
         },
         concerts: {
           title: 'Conciertos y Demostraciones',
-          description: 'Mostramos el chelo en acción e interpretamos piezas de la tradición musical gallega'
+          description: 'Mostramos el chelo en acción e interpretamos piezas compuestas específicamente para este proyecto'
         },
         events: {
           title: 'Eventos Personalizados',
@@ -222,7 +222,7 @@ export const translations: Record<Language, TranslationContent> = {
         },
         concerts: {
           title: 'Concerts and Demonstrations',
-          description: 'We show the cello in action and perform pieces from the Galician musical tradition'
+          description: 'We show the cello in action and perform pieces composed specifically for this project'
         },
         events: {
           title: 'Custom Events',

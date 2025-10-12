@@ -22,7 +22,11 @@ const CollaborationCard: React.FC<CollaborationCardProps> = ({ collaboration }) 
               <img
                 src={collaboration.image}
                 alt={`${collaboration.name} - ${collaboration.role}`}
-                className="w-full h-full object-cover"
+                className={`w-full h-full ${
+                  collaboration.name === 'BELE' 
+                    ? 'object-contain bg-white p-8' 
+                    : 'object-cover'
+                }`}
                 style={{ 
                   objectPosition: collaboration.name === 'Laura Calvo' 
                     ? 'center 10%' 
@@ -31,9 +35,13 @@ const CollaborationCard: React.FC<CollaborationCardProps> = ({ collaboration }) 
                 loading="lazy"
               />
               {/* Gradient overlay for better text readability */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+              {collaboration.name !== 'BELE' && (
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+              )}
               {/* Bottom info */}
-              <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
+              <div className={`absolute bottom-0 left-0 right-0 p-4 ${
+                collaboration.name === 'BELE' ? 'bg-gray-100 text-negro' : 'text-white'
+              }`}>
                 <h3 className="font-serif font-bold text-lg mb-1">{collaboration.name}</h3>
                 {collaboration.role && (
                   <p className="text-sm font-sans opacity-90">{collaboration.role}</p>
