@@ -10,9 +10,9 @@ interface StoryCardProps {
 
 const StoryCard: React.FC<StoryCardProps> = ({ story, onClick, isDark = false }) => {
   const { getStoryText } = useStoryTranslations();
-  
+
   return (
-    <div 
+    <div
       className="group cursor-pointer relative h-96 perspective-1000"
       onClick={onClick}
     >
@@ -23,9 +23,8 @@ const StoryCard: React.FC<StoryCardProps> = ({ story, onClick, isDark = false })
           <img
             src={story.image}
             alt={`${story.name} - Artesano especializado en ${story.wood} de ${story.province}, Galicia`}
-            className={`w-full h-full object-cover ${
-              isDark ? 'grayscale' : ''
-            }`}
+            className={`w-full h-full object-cover ${isDark ? 'grayscale' : ''
+              }`}
             loading="lazy"
           />
           {/* Gradient overlay for better text readability */}
@@ -36,19 +35,17 @@ const StoryCard: React.FC<StoryCardProps> = ({ story, onClick, isDark = false })
             <p className="text-sm font-sans opacity-90">{story.wood}</p>
           </div>
         </div>
-        
+
         {/* Back Side - Content */}
-        <div className={`absolute inset-0 w-full h-full backface-hidden rotate-y-180 rounded-lg shadow-lg ${
-          isDark 
-            ? 'bg-white text-negro' 
+        <div className={`absolute inset-0 w-full h-full backface-hidden rotate-y-180 rounded-lg shadow-lg ${isDark
+            ? 'bg-white text-negro'
             : 'bg-white text-negro'
-        } flex items-center justify-center p-6`}>
+          } flex items-center justify-center p-6`}>
           <div className="text-center">
             <h3 className="text-xl font-serif font-bold mb-3">{story.name}</h3>
-            <div className={`inline-block px-3 py-1 rounded-full text-xs font-sans font-medium mb-4 ${
-              isDark ? 'bg-caliz-plata text-negro' : 'bg-caliz-plata/30 text-mine-shaft'
-            }`}>
-              {story.wood} - {story.province}
+            <div className={`inline-block px-3 py-1 rounded-full text-xs font-sans font-medium mb-4 ${isDark ? 'bg-caliz-plata text-negro' : 'bg-caliz-plata/30 text-mine-shaft'
+              }`}>
+              {story.wood ? story.wood + ' - ' : ''}  {story.province}
             </div>
             <p className="text-sm font-sans leading-relaxed">{getStoryText(story, 'preview')}</p>
           </div>
