@@ -22,7 +22,7 @@ export const mainStories: Story[] = [
     id: 'pedro-elba-eco-teixos',
     name: 'Pedro e Elba - Eco dos Teixos',
     wood: 'tejo/teixo',
-    province: 'Lugo',
+    province: 'Ourense',
     preview: {
       gl: 'Emprendedores rurais que rehabilitaron a antiga escola do pobo converténdoa nun albergue turístico.',
       es: 'Emprendedores rurales que rehabilitaron la antigua escuela del pueblo convirtiéndola en un albergue turístico.',
@@ -76,7 +76,7 @@ export const additionalStories: Story[] = [
     id: 'xaneco',
     name: 'Xaneco',
     wood: 'ciruelo/ciruelo',
-    province: 'Pontevedra',
+    province: 'Lugo',
     preview: {
       gl: 'Artesá de percusión tradicional e zanfonas asentado en Outeiro de Rei (Lugo).',
       es: 'Artesano de percusión tradicional y zanfonas asentado en Outeiro de Rei (Lugo).',
@@ -143,8 +143,8 @@ export const additionalStories: Story[] = [
 ];
 
 export const collaborations: Collaboration[] = [
-  { 
-    name: 'Esteban Zapata Blanco', 
+  {
+    name: 'Esteban Zapata Blanco',
     role: 'Compositor',
     description: {
       gl: 'É un compositor galego nacido en Arteixo en 1992, cunha linguaxe compositiva influenciada polo folclore e a música culta. Iniciou os seus estudos no Conservatorio da Coruña en 2012, graduándose con honores en 2016. Posteriormente, tivo a oportunidade de continuar os seus estudos na HKU Utrecht Conservatorium, onde realiza o Mestrado "Music as a path of life" centrado en composición contemporánea.',
@@ -153,8 +153,8 @@ export const collaborations: Collaboration[] = [
     },
     website: 'https://www.instagram.com/este_s/?hl=es'
   },
-  { 
-    name: 'Saúl Nogareda Candal', 
+  {
+    name: 'Saúl Nogareda Candal',
     role: 'Violonchelo',
     description: {
       gl: 'Comeza no CMUS de Culleredo e continúa nos CMUS e CSM da Coruña. Complementa a súa formación na EAEM de Santiago de Compostela, na OJSG e na HKU de Utrecht. Realizou concertos con Soncello Ensemble, Lugo Camerata, Orquesta de Cámara Galega, Orquesta Gaos e Orquesta Sinfónica de Ponferrada. Formouse en música antiga na ESMAE de Porto, e forma parte do Ensemble Barroco de Ponferrada e de Concert Le Phénix. Tamén é membro do grupo de folk Sangre de muérdago.',
@@ -164,8 +164,8 @@ export const collaborations: Collaboration[] = [
     website: 'https://www.instagram.com/saulnogareda/?hl=es',
     image: '/images/saul.png'
   },
-  { 
-    name: 'BELE', 
+  {
+    name: 'BELE',
     role: 'Escola de música',
     description: {
       gl: 'A Bilboko Euskal Luthería Eskola leva dende o ano 1986 formando a luthiers de corda frotada de todo o mundo. Dende o comezo amosáronse interesados polo proxecto e apoiaronno con todo o material e tempo necesario para dar uns fundamentos acústicos sobre os que vertebrar o proxecto.',
@@ -175,8 +175,8 @@ export const collaborations: Collaboration[] = [
     website: 'https://www.bele.es/es/',
     image: '/images/bele.jpeg'
   },
-  { 
-    name: 'Ensaia', 
+  {
+    name: 'Ensaia',
     role: 'Talento Galego',
     description: {
       gl: 'Ensaia é unha plataforma que promove e apoia o talento galego en diferentes ámbitos culturais e artísticos.',
@@ -186,9 +186,9 @@ export const collaborations: Collaboration[] = [
     image: '/images/chelo-2.jpg',
     website: 'https://ensaia.com'
   },
-  { 
-    name: 'Nerea Pallares', 
-    role: 'Poeta',
+  {
+    name: 'Nerea Pallares',
+    role: 'Escritora',
     description: {
       gl: 'Nerea Pallares é unha poeta galega que colaborou no proxecto creando textos que se atopan escritos dentro do fondo do instrumento.',
       es: 'Nerea Pallares es una poeta gallega que colaboró en el proyecto creando textos que se encuentran escritos dentro del fondo del instrumento.',
@@ -196,8 +196,8 @@ export const collaborations: Collaboration[] = [
     },
     image: '/images/nerea-pallares.jpg'
   },
-  { 
-    name: 'Laura Calvo', 
+  {
+    name: 'Laura Calvo',
     role: 'Artista',
     description: {
       gl: 'Artista autodidacta, Laura pintábao todo cando era pequena. No 2024 dá un paso adiante e consolida Boor, unha proposta que combina a súa formación como educadora social con arte, cunha identidade propia e recoñecible. Afincada en Oza-Cesuras, Boor destaca por darlle unha segunda vida ás boias recuperadas do mar transformándoas en pezas únicas de deseño, e por crear debuxos fotorrealistas a gran escala cunha técnica singular de garabatos feitos con rotuladores.',
@@ -206,8 +206,8 @@ export const collaborations: Collaboration[] = [
     },
     image: '/images/laura.jpg'
   },
-  { 
-    name: 'Yago Fandiño', 
+  {
+    name: 'Yago Fandiño',
     role: 'Tatuador',
     description: {
       gl: 'Yago Fandiño é un tatuador residente na Coruña, amante do debuxo e da caligrafía ornamental traballa sobre a pel e o papel cun estilo denominado lettering. A súa contribución neste proxecto foi a colaboración directa con Nerea Pallares no traballo de caligrafía ornamental do texto creado por Nerea; que tamén se atopa escrito dentro do fondo do instrumento.',

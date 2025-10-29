@@ -9,9 +9,9 @@ Un proyecto cultural gallego que conecta historias rurales a través de un violo
 ### Las cuatro historias principales
 
 - **Javier Merelas** (Ourense) - Artesán del castaño gallego
-- **Pedro e Elba - Eco dos Teixos** (Lugo) - Guardadores de teixos milenarios
+- **Pedro e Elba - Eco dos Teixos** (Ourense) - Guardadores de teixos milenarios
 - **Iván Matos** (Pontevedra) - Mestre carpinteiro con pino de Oregón
-- **Xaneco** (Pontevedra) - Artista visionario del ciruelo
+- **Xaneco** (Lugo) - Artista visionario del ciruelo
 
 ### Historias adicionales
 
@@ -137,7 +137,7 @@ src/
 - **Saúl Nogareda Candal** - Violonchelo
 - **BELE** - Escola de música
 - **Ensaia** - Talento Galego
-- **Nerea Pallares** - Poeta
+- **Nerea Pallares** - Escritora
 - **Laura Calvo** - Artista
 - **Yago Fandiño** - Comunicación
 
