@@ -4,7 +4,7 @@ export const mainStories: Story[] = [
   {
     id: 'javier-merelas',
     name: 'Javier Merelas',
-    wood: 'castaño/castiñeiro',
+    wood: 'Castiñeiro',
     province: 'Lugo',
     preview: {
       gl: 'Emprendedor rural que quedou prendado de Seceda e desenvolveu Lar da Cima e A Barreira.',
@@ -21,7 +21,7 @@ export const mainStories: Story[] = [
   {
     id: 'pedro-elba-eco-teixos',
     name: 'Pedro e Elba - Eco dos Teixos',
-    wood: 'tejo/teixo',
+    wood: 'Teixo',
     province: 'Ourense',
     preview: {
       gl: 'Emprendedores rurais que rehabilitaron a antiga escola do pobo converténdoa nun albergue turístico.',
@@ -38,7 +38,7 @@ export const mainStories: Story[] = [
   {
     id: 'ivan-matos',
     name: 'Iván Matos',
-    wood: 'pino de Oregón',
+    wood: 'Pino de Oregón',
     province: 'A Coruña',
     preview: {
       gl: 'Escultor formado na escola Pablo Picasso da Coruña, especialista en talla escultórica con motoserra.',
@@ -55,7 +55,7 @@ export const mainStories: Story[] = [
   {
     id: 'adri-pereiro',
     name: 'Adri Pereiro',
-    wood: 'luthier',
+    wood: '',
     province: 'Pontevedra',
     preview: {
       gl: 'Luthier de instrumentos de corda frotada e creador do proxecto Un chelo e catro historias.',
