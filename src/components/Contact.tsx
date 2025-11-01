@@ -71,7 +71,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-serif font-bold text-negro mb-1">{t.contact.contactInfo.email}</h3>
-                  <p className="font-sans text-mine-shaft">info@chelocatrohistorias.com</p>
+                  <a className="font-sans text-mine-shaft" href="mailto:info@unchelocatrohistorias.com">info@unchelocatrohistorias.com</a>
                 </div>
               </div>
 
@@ -81,7 +81,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-serif font-bold text-negro mb-1">{t.contact.contactInfo.phone}</h3>
-                  <p className="font-sans text-mine-shaft">+34 XXX XXX XXX</p>
+                  <p className="font-sans text-mine-shaft">+34 624 32 31 81</p>
                 </div>
               </div>
 
