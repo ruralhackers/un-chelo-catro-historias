@@ -151,7 +151,8 @@ export const collaborations: Collaboration[] = [
       es: 'Es un compositor gallego nacido en Arteixo en 1992, con un lenguaje compositivo influenciado por el folclore y la música culta. Inició sus estudios en el Conservatorio de La Coruña en 2012, graduándose con honores en 2016. Posteriormente, tuvo la oportunidad de continuar sus estudios en la HKU Utrecht Conservatorium, donde realiza el Máster "Music as a path of life" centrado en composición contemporánea.',
       en: 'He is a Galician composer born in Arteixo in 1992, with a compositional language influenced by folklore and classical music. He began his studies at the Conservatory of La Coruña in 2012, graduating with honors in 2016. Subsequently, he had the opportunity to continue his studies at the HKU Utrecht Conservatorium, where he is pursuing the Master\'s degree "Music as a path of life" focused on contemporary composition.'
     },
-    website: 'https://www.instagram.com/este_s/?hl=es'
+    website: 'https://www.instagram.com/este_s/?hl=es',
+    image: '/images/esteban-zapata.jpg'
   },
   {
     name: 'Saúl Nogareda Candal',
