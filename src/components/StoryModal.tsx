@@ -85,11 +85,21 @@ const StoryModal: React.FC<StoryModalProps> = ({ storyId, onClose }) => {
 
               <div className={`border-l-4 ${
                 isAdditionalStory ? 'border-amber-300' : 'border-amber-600'
-              } pl-6 py-4`}>
+              } pl-6 py-4 mb-6`}>
                 <blockquote className="text-lg font-serif italic opacity-90">
                   "{getStoryText(story, 'preview')}"
                 </blockquote>
               </div>
+              {story.website && (
+                <a 
+                  href={story.website} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className={`inline-block ${isAdditionalStory ? 'text-amber-300 hover:text-amber-200' : 'text-amber-600 hover:text-amber-700'} text-sm font-medium`}
+                >
+                  {t.collaborationCard.seeMore}
+                </a>
+              )}
             </div>
           </div>
 

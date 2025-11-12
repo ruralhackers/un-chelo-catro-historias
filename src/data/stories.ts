@@ -1,4 +1,4 @@
-import { Story, Collaboration } from '../types';
+import type { Story, Collaboration } from '../types';
 
 export const mainStories: Story[] = [
   {
@@ -16,7 +16,8 @@ export const mainStories: Story[] = [
       es: 'Con diecinueve años Javier se enamoró de Seceda en una sensación que él mismo dice que es difícil de explicar... Quería vivir vinculado al monte y comenzó con la idea de una explotación de cabras, no resultó pero luego surgió Lar da Cima y A Barreira el proyecto de rehabilitación de dos viviendas siguiendo métodos y formas de respeto con el entorno. En la actualidad estas son su sustento económico y su forma de vida. El castaño que forma los aros del violonchelo fue el suelo de esa casa sobre el que pisaron familias y hicieron vida...',
       en: 'At nineteen years old Javier fell in love with Seceda in a feeling that he himself says is difficult to explain... He wanted to live linked to the mountain and began with the idea of a goat farm, it didn\'t work out but then Lar da Cima and A Barreira emerged, the project of rehabilitating two houses following methods and forms of respect with the environment. Currently these are his economic sustenance and his way of life. The chestnut that forms the ribs of the cello was the floor of that house on which families stepped and made life...'
     },
-    image: '/images/javier-merelas.jpg'
+    image: '/images/javier-merelas.jpg',
+    website: 'https://lardacima.com/'
   },
   {
     id: 'pedro-elba-eco-teixos',
@@ -33,7 +34,8 @@ export const mainStories: Story[] = [
       es: 'Eco dos Teixos es un lugar donde dos jóvenes rehabilitaron la antigua escuela del pueblo y la convirtieron en un albergue turístico con actividades que lo complementan. Sus líneas de trabajo son la educación ambiental, rutas de senderismo, campamentos de diferentes tipos y talleres de artesanía-danza-circo etc. Este proyecto pone en valor la importancia de un lugar tan singular Casaio y especialmente el Teixadal; uno de los reductos de tejos más importantes de Europa que posee más de cuatrocientos tejos que alcanzan edades superiores a los quinientos años. El tejo forma parte de la pestana superior e inferior del violonchelo y es una rama caída traída del propio teixadal.',
       en: 'Eco dos Teixos is a place where two young people rehabilitated the old village school and turned it into a tourist hostel with activities that complement it. Their lines of work are environmental education, hiking routes, different types of camps and craft-dance-circus workshops etc. This project values the importance of such a unique place Casaio and especially the Teixadal; one of the most important yew refuges in Europe that has more than four hundred yews that reach ages over five hundred years. The yew forms part of the upper and lower nut of the cello and is a fallen branch brought from the teixadal itself.'
     },
-    image: '/images/pedro-elba.jpg'
+    image: '/images/pedro-elba.jpg',
+    website: 'https://ecodosteixos.com/'
   },
   {
     id: 'ivan-matos',
@@ -50,7 +52,8 @@ export const mainStories: Story[] = [
       es: 'Se formó en la escuela Pablo Picasso de La Coruña donde aprendió las técnicas escultóricas más elementales como la talla en piedra, moldeando y vaciando, forja artística y talla en madera. Estudió Bellas Artes y poco a poco fue creciendo como escultor, trabajando en obras personales y también atendiendo los encargos de clientes. Se enfocó en la talla escultórica con la especialidad en motosierra, llegó a representar a España en el festival Tosmk (Rusia) con una figura de un gorila gigante. La madera que aportó a este proyecto es el pino de Oregón plantado en Altamira (A Coruña) que iba a ser material para una escultura.',
       en: 'He trained at the Pablo Picasso school in La Coruña where he learned the most elementary sculptural techniques such as stone carving, molding and hollowing, artistic forging and wood carving. He studied Fine Arts and little by little grew as a sculptor, working on personal works and also attending to client commissions. He focused on sculptural carving with chainsaw specialty, came to represent Spain at the Tosmk festival (Russia) with a giant gorilla figure. The wood he contributed to this project is the Oregon pine planted in Altamira (A Coruña) that was going to be material for a sculpture.'
     },
-    image: '/images/ivan-matos.jpg'
+    image: '/images/ivan-matos.jpg',
+    website: 'https://www.instagram.com/ivanhe_matos_sculpture/?hl=es'
   },
   {
     id: 'adri-pereiro',
@@ -67,7 +70,8 @@ export const mainStories: Story[] = [
       es: 'Adri Pereiro es luthier de instrumentos de cuerda frotada. En su pasión por conocer las posibilidades que ofrecen las maderas locales surge este proyecto "Un chelo y cuatro historias". Actualmente desarrolla su actividad como luthier en la ciudad de La Coruña donde sigue analizando las posibilidades físico acústicas de las maderas locales (y de fuera) en la construcción de este instrumento.',
       en: 'Adri Pereiro is a luthier of bowed string instruments. In his passion for knowing the possibilities that local woods offer, this project "A cello and four stories" arises. Currently he develops his activity as a luthier in the city of La Coruña where he continues to analyze the physical-acoustic possibilities of local woods (and from outside) in the construction of this instrument.'
     },
-    image: '/images/adrian.jpg'
+    image: '/images/adrian.jpg',
+    website: 'https://luthierpereiro.es/'
   }
 ];
 
@@ -87,7 +91,8 @@ export const additionalStories: Story[] = [
       es: 'Artesano de percusión tradicional y zanfonas asentado en Outeiro de Rei (Lugo) con una dilatada trayectoria es una pieza fundamental de la AGG y organizador de la Mostra de Instrumentos de Música Tradicional en el festival de Pardiñas. Colaboró en este proyecto con la madera de Ciruelo que forma parte del batedor del instrumento; este era de un árbol que se encontraba en la casa de su padre.',
       en: 'Traditional percussion and hurdy-gurdy artisan settled in Outeiro de Rei (Lugo) with a long career is a fundamental piece of the AGG and organizer of the Traditional Musical Instruments Show at the Pardiñas festival. He collaborated in this project with the Ciruelo wood that forms part of the instrument\'s beater; this was from a tree that was in his father\'s house.'
     },
-    image: '/images/xaneco.jpg'
+    image: '/images/xaneco.jpg',
+    website: 'https://xaneco.gal/es/'
   },
   {
     id: 'cesar-magali',
@@ -104,7 +109,8 @@ export const additionalStories: Story[] = [
       es: 'Luthier de instrumentos de cuerda pulsada antiguos, asentado en el Areal (Santiago de Compostela) lleva varias décadas dedicado a este campo de la luthería y su investigación. La madera que aportó a este proyecto fue el ciprés para la tapa, una madera que inicialmente iba a ser para un escultor y que se encontraba en un aserradero cerca de Pontevedra.',
       en: 'Luthier of ancient plucked string instruments, settled in the Areal (Santiago de Compostela) has been dedicated to this field of lutherie and its research for several decades. The wood he contributed to this project was cypress for the top, a wood that was initially going to be for a sculptor and that was found in a sawmill near Pontevedra.'
     },
-    image: '/images/cesar-magali.jpg'
+    image: '/images/cesar-magali.jpg',
+    website: 'https://cesarariasluthier.com/'
   },
   {
     id: 'roi-earan',
@@ -121,7 +127,8 @@ export const additionalStories: Story[] = [
       es: 'Luthier de instrumentos de cuerda frotada asentado en la ciudad de Pontevedra, antiguo compañero de EMAO de Vigo. Aportó una pieza de cerezo para el mango del instrumento.',
       en: 'Luthier of bowed string instruments settled in the city of Pontevedra, former colleague from EMAO de Vigo. He contributed a cherry piece for the instrument\'s neck.'
     },
-    image: '/images/roi-earan.jpg'
+    image: '/images/roi-earan.jpg',
+    website: 'https://earan.eu/'
   },
   {
     id: 'inazio',
@@ -195,7 +202,8 @@ export const collaborations: Collaboration[] = [
       es: 'Nerea Pallares es una poeta gallega que colaboró en el proyecto creando textos que se encuentran escritos dentro del fondo del instrumento.',
       en: 'Nerea Pallares is a Galician poet who collaborated on the project by creating texts that are written inside the back of the instrument.'
     },
-    image: '/images/nerea-pallares.jpg'
+    image: '/images/nerea-pallares.jpg',
+    website: 'https://www.instagram.com/nerea_pallares/?hl=es'
   },
   {
     name: 'Laura Calvo',
@@ -205,7 +213,8 @@ export const collaborations: Collaboration[] = [
       es: 'Artista autodidacta, Laura pintaba todo cuando era pequeña. En 2024 da un paso adelante y consolida Boor, una propuesta que combina su formación como educadora social con arte, con una identidad propia y reconocible. Afincada en Oza-Cesuras, Boor destaca por darle una segunda vida a las boyas recuperadas del mar transformándolas en piezas únicas de diseño, y por crear dibujos fotorrealistas a gran escala con una técnica singular de garabatos hechos con rotuladores.',
       en: 'Self-taught artist, Laura painted everything when she was little. In 2024 she takes a step forward and consolidates Boor, a proposal that combines her training as a social educator with art, with her own and recognizable identity. Based in Oza-Cesuras, Boor stands out for giving a second life to buoys recovered from the sea by transforming them into unique design pieces, and for creating large-scale photorealistic drawings with a singular technique of scribbles made with markers.'
     },
-    image: '/images/laura.jpg'
+    image: '/images/laura.jpg',
+    website: 'https://boor.es/'
   },
   {
     name: 'Yago Fandiño',
@@ -215,6 +224,7 @@ export const collaborations: Collaboration[] = [
       es: 'Yago Fandiño es un tatuador residente en La Coruña, amante del dibujo y la caligrafía ornamental trabaja sobre la piel y el papel con un estilo denominado lettering. Su contribución en este proyecto fue la colaboración directa con Nerea Pallares en el trabajo de caligrafía ornamental del texto creado por Nerea; que también se encuentra escrito dentro del fondo del instrumento.',
       en: 'Yago Fandiño is a tattoo artist resident in La Coruña, lover of drawing and ornamental calligraphy works on skin and paper with a style called lettering. His contribution to this project was direct collaboration with Nerea Pallares in the ornamental calligraphy work of the text created by Nerea; which is also written inside the back of the instrument.'
     },
-    image: '/images/yago-fandino.jpg'
+    image: '/images/yago-fandino.jpg',
+    website: 'https://www.instagram.com/___f.a.n.d.i___/'
   }
 ];

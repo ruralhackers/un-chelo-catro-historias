@@ -106,7 +106,7 @@ const Contact: React.FC = () => {
                   {t.contact.cta.description}
                 </p>
                 <a 
-                  href="mailto:info@chelocatrohistorias.com"
+                  href="mailto:info@unchelocatrohistorias.com"
                   className="inline-block bg-caliz-plata text-negro px-8 py-3 rounded-full font-sans font-bold hover:bg-white transition-colors duration-300"
                 >
                   {t.contact.cta.button}

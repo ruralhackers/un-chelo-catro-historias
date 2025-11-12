@@ -1,6 +1,7 @@
 import React from 'react';
 import { Story } from '../types';
 import { useStoryTranslations } from '../hooks/useStoryTranslations';
+import { useLanguage } from '../context/LanguageContext';
 
 interface StoryCardProps {
   story: Story;
@@ -10,6 +11,7 @@ interface StoryCardProps {
 
 const StoryCard: React.FC<StoryCardProps> = ({ story, onClick, isDark = false }) => {
   const { getStoryText } = useStoryTranslations();
+  const { t } = useLanguage();
 
   return (
     <div
@@ -47,7 +49,18 @@ const StoryCard: React.FC<StoryCardProps> = ({ story, onClick, isDark = false })
               }`}>
               {story.wood ? story.wood + ' - ' : ''}  {story.province}
             </div>
-            <p className="text-sm font-sans leading-relaxed">{getStoryText(story, 'preview')}</p>
+            <p className="text-sm font-sans leading-relaxed mb-4">{getStoryText(story, 'preview')}</p>
+            {story.website && (
+              <a 
+                href={story.website} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
+                className="text-amber-600 hover:text-amber-700 text-sm font-medium"
+              >
+                {t.collaborationCard.seeMore}
+              </a>
+            )}
           </div>
         </div>
       </div>

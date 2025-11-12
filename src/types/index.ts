@@ -6,6 +6,7 @@ export interface Story {
   preview: Record<Language, string>;
   fullStory: Record<Language, string>;
   image: string;
+  website?: string;
 }
 
 export interface Collaboration {
